@@ -1,0 +1,9 @@
+servo-gen — Servo signal generator on Atmel ATtiny85.
+
+This tool is a general servo tester and a simple example of AVR timer and
+interrupt use (CTC mode).
+
+The output signal has been implemented according to the description here:
+https://en.wikipedia.org/wiki/Servo_control
+However, for use with most modern RC servos, the pulse boundary has been
+expanded to approximately 0.90-2.58ms range. Test it with your own servos.
